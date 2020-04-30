@@ -79,9 +79,9 @@ def panagram():
         checker=list(string.ascii_lowercase)
         checker.append(" ")
         entered_list=list(strings)
-        for i in entered_list:
+        for i in checker:
             b=False
-            if i in checker:
+            if i in entered_list:
                 b=True
         if b:
             print(True)
